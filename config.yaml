@@ -1,0 +1,65 @@
+Road_Id:                1
+Road_Length:            80
+Road_Width:             8
+Road_Signal:            60
+Road_SpeedLimit:        5
+Default_MaxSpeed:       3
+Default_Acceleration:   1
+Default_Deceleration:   3
+
+Colors:
+    -   Red             1   0   0
+    -   Green           0   1   0
+    -   Blue            0   0   1
+    -   Yellow          1   1   0
+    -   Cyan            0   1   1
+    -   Magenta         1   0   1
+    -   White           1   1   1
+    -   Black           0   0   0
+
+Vehicles:
+    -   Name:           S
+        Type:           Sedan
+        Length:         4
+        Width:          2
+        MaxSpeed:       12
+        Acceleration:   2
+    -   Name:           h
+        Type:           Hatchback
+        Length:         3
+        Width:          2
+        MaxSpeed:       10
+        Acceleration:   2
+    -   Name:           b
+        Type:           Bike
+        Length:         2
+        Width:          1
+        MaxSpeed:       8
+        Acceleration:   2
+    -   Name:           B
+        Type:           Bus
+        Length:         12
+        Width:          3
+    -   Name:           T
+        Type:           Truck
+        Length:         10
+        Width:          3
+
+Commands:
+    -   Signal          Green
+    -   Bus             Red
+    -   Sedan           Green
+    -   Hatchback       Blue
+    -   Bike            Yellow
+    -   Bike            Cyan
+    -   Signal          Yellow
+    -   Pass            5
+    -   Signal          Red
+    -   Bus             Red
+    -   Sedan           Green
+    -   Hatchback       Blue
+    -   Bike            Yellow
+    -   Truck           Cyan
+    -   Pass            15
+    -   Signal          Green
+    -   Continue
